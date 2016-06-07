@@ -29,5 +29,11 @@ public class SpringServiceController {
 		return users;
 	}
 	
+	@RequestMapping(value = "/",method = RequestMethod.GET)
+	public String index() {
+//		User user=userService.getUserById(id);
+		return "index";
+	}
+	
 	
 }
