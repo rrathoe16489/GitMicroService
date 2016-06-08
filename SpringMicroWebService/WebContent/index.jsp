@@ -17,6 +17,7 @@
     <tr>
         <td><form:label path="age">Age</form:label></td>
         <td><form:input path="age" /></td>
+        ...
     </tr>
     <tr>
         <td><form:label path="id">id</form:label></td>
